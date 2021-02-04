@@ -145,5 +145,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults); // pass the controller function
   paginationView.addHandlerClick(controlPagination); // pass the controller function
   addRecipeView.addHandlerUpload(controlAddRecipe); // pass the controller function
+  console.log('welcome to the forkify');
 };
 init();
